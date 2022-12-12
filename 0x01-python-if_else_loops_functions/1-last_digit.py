@@ -5,7 +5,7 @@ number = random.randint(-10000, 10000)
 if number > 0:
     lastDigit = number % 10
 else:
-    lastDigit = (number % 10) * -1
+    lastDigit = ((number * -1) % 10) * -1
 
 if lastDigit > 5:
     output = 'and is greater than 5'
